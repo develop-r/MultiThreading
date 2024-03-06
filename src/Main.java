@@ -2,6 +2,7 @@ class MyThread1 extends Thread {
     // Method to be called by multiple threads
     public  void run() {
         // Performing some task
+        //sd
       for(int i=0;i<10;i++) {
           try {
               Thread.sleep(1000);
